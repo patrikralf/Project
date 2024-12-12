@@ -5,22 +5,41 @@
 
 }
 
-
+.content {
+  padding: ;
+}
 
 a#logo{
+  font-size: 24px;
+  color: F9FAF8;
+  font-weight: bold;
+  flex: 2 1 auto;
 }
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+div.first-block {
+  background-color: #1F2937;
+  color: white;
+}
+
 
 div.menu {
   background-color: #1F2937;
-  padding: 10px;
   color: white;
   text-decoration: none;
 }
 
+
 ul.navbar {
-  padding: 0;
+  padding: 10px 180px 10px 180px;
+;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
@@ -38,4 +57,23 @@ li {
   list-style-type: none;
   padding-inline: 10px;
   
+}
+
+.welcome-text {
+  margin: 7% 10% 1% 10%;
+  display: flex;
+
+}
+
+.row {
+    flex-direction: column;
+    align-content: center;
+    flex: 1 2 auto;
+    flex-wrap: wrap;
+  
+}
+
+h2 {
+ text-align: center;
+ padding-top: 20px;
 }
