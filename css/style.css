@@ -1,20 +1,17 @@
 * {
-  /*outline: solid 2px black;*/
+  outline: solid 2px black;
   font-family: Roboto;
   margin: 0;
+}
 
+body {
+  height: 100%;
 }
 
 .content {
-  padding: ;
+  padding: 0;
 }
 
-a#logo{
-  font-size: 24px;
-  color: F9FAF8;
-  font-weight: bold;
-  flex: 2 1 auto;
-}
 
 h1 {
   font-weight: bold;
@@ -34,13 +31,21 @@ div.menu {
   text-decoration: none;
 }
 
+div.menu {
+  max-width: 100%;
+}
 
 ul.navbar {
   padding: 10px 180px 10px 180px;
-;
   display: flex;
   justify-content: space-between;
+}
 
+a#logo{
+  font-size: 24px;
+  color: F9FAF8;
+  font-weight: bold;
+  flex: 0 0 auto;
 }
 
 .menu a {
@@ -69,7 +74,7 @@ li {
     flex-direction: column;
     align-content: center;
     flex: 1 2 auto;
-    flex-wrap: wrap;
+    
   
 }
 
