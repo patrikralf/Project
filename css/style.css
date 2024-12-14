@@ -1,17 +1,38 @@
 * {
-  outline: solid 2px black;
+  outline: solid 2px rgb(255, 0, 0);
   font-family: Roboto;
-  margin: 0;
+  margin: 0px;
+}
+.first-block {
+  background-color: #1F2937;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
-body {
-  height: 100%;
+.flexbox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.content {
-  padding: 0;
+a {
+  color: white;
+  text-decoration: none;
+  height: 3rem;
+  align-content: center;
 }
 
+.flexbox .flex-one{
+  font: bold 24px Roboto;
+  flex: 1;
+}
+
+
+/*
+
+div.list {
+  display: flex;
+}
 
 h1 {
   font-weight: bold;
@@ -19,63 +40,15 @@ h1 {
   color: #F9FAF8;
 }
 
-div.first-block {
-  background-color: #1F2937;
-  color: white;
-}
-
-
-div.menu {
-  background-color: #1F2937;
-  color: white;
-  text-decoration: none;
-}
-
-div.menu {
-  max-width: 100%;
-}
-
-ul.navbar {
-  padding: 10px 180px 10px 180px;
-  display: flex;
-  justify-content: space-between;
-}
-
-a#logo{
-  font-size: 24px;
-  color: F9FAF8;
-  font-weight: bold;
-  flex: 0 0 auto;
-}
-
-.menu a {
-  text-decoration: none;
-  color: white;
-}
-
-div.list {
-  display: flex;
-
-}
-
-li {
-  list-style-type: none;
-  padding-inline: 10px;
-  
-}
-
 .welcome-text {
   margin: 7% 10% 1% 10%;
   display: flex;
-
 }
 
 .row {
     flex-direction: column;
     align-content: center;
     flex: 1 2 auto;
-    
-  
 }
 
 h2 {
