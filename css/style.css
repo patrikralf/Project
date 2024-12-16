@@ -57,7 +57,7 @@ p {
   flex-direction: column;
   width: 600px;
 }
-git 
+
 .meta-flex-two p {
   max-width: 400px;
   }
@@ -78,8 +78,7 @@ img {
 }
 
 .second-block {
-  height: 600px;
-  padding-top: 30px;
+  height: 500px;
   padding-left: 13%;
   padding-right: 13%;
 }
@@ -87,32 +86,43 @@ img {
 h2{
   text-align: center;
   color: #1F2937;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 3rem;
 
 }
 
 .smiley-images {
   display: flex;
   align-content: center;
-  gap: 40px;
+  gap: 60px;
   justify-content: center;
 }
 
-img {
-  height: 120px;
-  width: 130px;
+.smiley-images img {
+  height: 200px;
   outline: solid 5px rgb(0, 132, 255);
   border-radius: 8px;
   margin: auto;
+}
 
+.smiley-images img,
+.smiley-images p {
+  width: 210px;
 }
 
 .smiley-images p {
   font-size: small;
-  width: 130px;
   text-align: center;
-  
 }
+
+.third-block {
+  height: 600px;
+  padding-left: 13%;
+  padding-right: 13%;
+  background-color: #dfdfdf;
+}
+
 /*
 
 div.list {
