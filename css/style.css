@@ -1,5 +1,5 @@
 * {
-  utline: solid 2px rgb(255, 0, 0);
+  /*outline: solid 2px rgb(255, 0, 0);*/
   font-family: Roboto;
   margin: 0px;
 }
@@ -75,6 +75,43 @@ img {
   cursor: pointer;
   border-radius: 8px;
 
+}
+
+.second-block {
+  height: 600px;
+  padding-top: 30px;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+h2{
+  text-align: center;
+  color: #1F2937;
+  margin-bottom: 30px;
+
+}
+
+.smiley-images {
+  display: flex;
+  align-content: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+img {
+  height: 120px;
+  width: 130px;
+  outline: solid 5px rgb(0, 132, 255);
+  border-radius: 8px;
+  margin: auto;
+
+}
+
+.smiley-images p {
+  font-size: small;
+  width: 130px;
+  text-align: center;
+  
 }
 /*
 
