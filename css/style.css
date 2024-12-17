@@ -117,11 +117,29 @@ h2{
 }
 
 .third-block {
-  height: 600px;
-  padding-left: 13%;
-  padding-right: 13%;
-  background-color: #dfdfdf;
+  height: auto;
+  padding-left: 23%;
+  padding-right: 23%;
+  background-color: #f1f1f2;
 }
+
+.quote {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 100;
+  text-align: justify;
+  color: #4f4f52;
+}
+
+.quote p {
+  font-size: 23px;
+  color: #1F2937;
+  font-weight: 800;
+  text-align: right;
+}
+
 
 /*
 
