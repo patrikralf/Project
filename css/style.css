@@ -1,5 +1,5 @@
 * {
-  /*outline: solid 2px rgb(255, 0, 0);*/
+  outline: solid 2px rgb(255, 0, 0);
   font-family: Roboto;
   margin: 0px;
 }
@@ -139,6 +139,34 @@ h2{
   font-weight: 800;
   text-align: right;
 }
+
+.fourth-block {
+  height: auto;
+  padding-left: 23%;
+  padding-right: 23%;
+}
+
+.blue-box {
+  background-color: #2981fd;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  min-width: 800px;
+}
+
+.button-2 {
+  margin-left: auto;
+}
+
+footer {
+  height: 810px;
+  padding-left: 23%;
+  padding-right: 23%;
+  background-color: #244a80;
+}
+
+
 
 
 /*
