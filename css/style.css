@@ -1,5 +1,5 @@
 * {
-  outline: solid 2px rgb(255, 0, 0);
+  /*outline: solid 2px rgb(255, 0, 0);*/
   font-family: Roboto;
   margin: 0px;
 }
@@ -153,37 +153,41 @@ h2{
   margin-top: 90px;
   margin-bottom: 90px;
   min-width: 800px;
-}
-
-.button-2 {
-  margin-left: auto;
-}
-
-footer {
-  height: 810px;
-  padding-left: 23%;
-  padding-right: 23%;
-  background-color: #244a80;
-}
-
-
-
-
-/*
-
-div.list {
   display: flex;
 }
 
-
-
-.row {
-    flex-direction: column;
-    align-content: center;
-    flex: 1 2 auto;
+.sub-row h4 {
+  color: white;
+  font-size: 32px;
 }
 
-h2 {
- text-align: center;
- padding-top: 20px;
+.sub-row p {  
+  color: #e8e8e8;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.sub-row {
+}
+
+.button-2 {
+  padding: 5px 30px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  outline: solid 2px white;
+  max-height: fit-content;
+}
+
+footer {
+  height: auto;
+  padding-left: 23%;
+  padding-right: 23%;
+  background-color: #244a80;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 22px;
+  color: white;
 }
